@@ -2,7 +2,7 @@
   "name": "ai-proxy",
   "version": "1.0.0",
   "description": "A proxy server for AI APIs",
-  "main": "index.ts",
+  "main": "dist/main.js",
   "author": "Mike Harty",
   "scripts": {
     "dev": "npx ts-node src/main.ts",
