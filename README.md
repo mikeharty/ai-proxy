@@ -1,5 +1,22 @@
 # AI Proxy
 
+> Resurrected 10/16/24 to use OpenAI's o1-preview model via OpenRouter.
+
+The readme below is still roughly accurate, the o1-preview model has the same token limit as gpt-4o, but is trained with reinforcement learning to perform complex reasoning. It is quite slow and costs significantly more than gpt-4o, but it is dramatically better at solving math, programming, and and logic based questions.
+
+o1-preview:
+```
+$15.00 / 1M input tokens
+$7.50 / 1M cached input tokens
+$60.00 / 1M output tokens
+```
+gpt-4o:
+```
+$2.50 / 1M input tokens
+$1.25 / 1M cached** input tokens
+$10.00 / 1M output tokens
+```
+
 This is a project designed to be run as a local proxy/router for [OpenAI](https://openai.com/) and [OpenRouter](https://openrouter.ai/) APIs.
 
 OpenAI hasn't made GPT-4 32k available in their API for personal users, but OpenRouter has. This proxy provides an endpoint that switches between providers depending on the model selected. Simply specify `gpt-4-32k` as the model name to access OpenRouter's version of GPT-4 32k.
