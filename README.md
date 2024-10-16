@@ -2,7 +2,7 @@
 
 > Resurrected 10/16/24 to use OpenAI's o1-preview model via OpenRouter.
 
-The readme below is still roughly accurate, the o1-preview model has the same token limit as gpt-4o, but is trained with reinforcement learning to perform complex reasoning. It is quite slow and costs significantly more than gpt-4o, but it is dramatically better at solving math, programming, and and logic based questions.
+The readme below is still roughly accurate, but the o1-preview model has the same token limit as the current default (gpt-4o). o1-preview is trained with reinforcement learning to perform complex reasoning. It is quite slow and costs significantly more than gpt-4o, but it is dramatically better at solving math, programming, and and logic based questions.
 
 o1-preview:
 ```
